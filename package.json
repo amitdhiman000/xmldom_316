@@ -1,0 +1,21 @@
+{
+  "name": "xmldom_316",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && web-test-runner ./dist/**/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/test-runner": "^0.13.17",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.7.4"
+  }
+}
