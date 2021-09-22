@@ -7,8 +7,8 @@ const xml = `
   <email>amit@mail.com</email>
 </Person>`;
 
-it("test for name", () => {
-  const val = findNodeValue(xml, "name");
+it("test for name", async () => {
+  const val = await findNodeValue(xml, "name");
   console.log("test");
   expect(val === "Amit");
 });
